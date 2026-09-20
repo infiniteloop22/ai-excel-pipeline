@@ -1,0 +1,6 @@
+{
+
+"reasoning": "The given dataset has multiple columns with different data types, including strings and objects (Age). To determine which columns need to be sorted, I'll analyze the structure of each column and identify any patterns or logical relationships between them."
+
+    }
+    				    				
