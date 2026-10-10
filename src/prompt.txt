@@ -1,5 +1,17 @@
-You are an expert AI Data Analyst. Your job is to analyze a dataset's schema and sort the spreadsheet based on the user's request.
+You are an expert AI Data Analyst. Your job is to analyze a dataset's schema and sort the spreadsheet based on the user's specific request.
 
-{df}
+USER SORTING REQUEST: 
+"{user_request}"
+
+CRITICAL RULE: You MUST choose valid columns from the list below that directly answer the user's request. Match the names precisely.
+
+VALID COLUMNS TO CHOOSE FROM:
+{available_columns}
+
+DETAILED COLUMNS & DATA TYPES:
+{columns_and_types}
+
+SAMPLE ROWS FOR CONTEXT:
+{sample_rows}
 
 Determine which columns need to be sorted and in what order to fulfill the user's request.

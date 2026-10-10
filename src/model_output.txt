@@ -1,6 +1,4 @@
-{
-
-"reasoning": "The given dataset has multiple columns with different data types, including strings and objects (Age). To determine which columns need to be sorted, I'll analyze the structure of each column and identify any patterns or logical relationships between them."
-
-    }
-    				    				
+{"columns_to_sort_by": [
+    "Full Name", "Job Title", "Business Unit", "Department",
+    "Annual Salary", "Bonus %"
+], "reasoning": "The user has specified 'sort by most important columns' which implies that we should prioritize the EEID, Full Name, Job Title, Business Unit, and Department columns. These are likely to be critical or decision-making factors for business purposes."}
