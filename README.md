@@ -10,7 +10,7 @@ An intelligent Python script that utilizes a local LLM via **Ollama** and **Pyda
 ## Technologies Used
 - **Language:** Python 3.x
 - **Local AI Orchestration:** `ollama` (Running `llama3.2:1b`)
-- **Data Libraries:** Pandas, Ollama, Pydantic
+- **Data Libraries:** `Pandas`, `Pydantic`
 
 ## Getting Started
 
